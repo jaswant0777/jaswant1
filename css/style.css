@@ -1,0 +1,215 @@
+ *{padding: 0px; margin: 0px;box-sizing: border-box; font-family: Arial, Helvetica, sans-serif;}
+ /*----------------------hover------------------------------*/
+ body{font-family: 'Poppins', sans-serif; }
+ h2{font-weight: 700;}
+ h3{font-weight: 500;}
+
+ a{text-decoration: none ;color: #000;}
+
+.bi{color: #fc003f;}
+a:hover{color: #f01111;}
+.backraund{background: #eee;}
+/*----------------------navbar------------------------------*/
+.navbar{--bs-navbar-nav-hink-padding-x: 20px; font-weight: 600; font-family: Arial, Helvetica, sans-serif; background: #eee;}
+.hvr-underline-from-left:before {background: #e44e4e; bottom: 8px; height: 2px; }
+
+.nav-link:hover{color: #d61919 !important;}
+
+
+/*----------------------section-4------------------------------*/
+.icon{width: 70px; height: 70px; background-color: #eee; border-radius: 50%;}
+.icon i{color: #f01111; font-size: 30px; display: flex;  justify-content: center; padding-top: 20px;}
+    
+ 
+/*----------------------section-5------------------------------*/
+.rod img{border-radius: 100%;}
+
+.full{width: 100px; height: 40px; background-color: #74e7bc; border-radius: 50%;
+    font-size: 20px; display: flex;  justify-content: center; padding-top: 5px; color: #f01111; }
+/*----------------------section-6------------------------------*/
+.car{
+    overflow: hidden;
+    transition: all 0.3s;
+}            
+.card img:hover {
+    transform: scale(1.5);
+    transition: all 0.5s;
+}
+.lh{overflow: hidden;}
+
+/*----------------------section-7------------------------------*/
+
+.accordion{--bs-accordion-btn-focus-box-shadow: 0 0 0 0rgba; 
+  
+}
+
+
+
+
+/*----------------------section-9------------------------------*/
+.kh{border: none; color: #fff; border-radius: 5px;}
+
+/*----------------------section-10------------------------------*/
+.bg{ background-image: url(../images/aa8.jpg);
+    background-repeat: no-repeat;
+border-bottom-width: 0px;
+background-attachment: fixed;
+padding-bottom: 30px;
+background-size: cover;
+}
+
+.owl-carousel .owl-item img{width: 100%; border-radius: 100%;}
+
+/*----------------------section-11------------------------------*/
+
+
+.element{
+    width: 100%;
+    border: none;
+    padding: 10px;
+    border-radius: 5px; margin-top: 1px; }
+
+    .input{border: solid 1px; border-color: #858585;}
+    /*----------------------section-12------------------------------*/
+    .address{   
+        padding: 20px;
+        margin: 10px;
+        border: solid 1px ;
+
+    }
+        
+       
+
+
+
+/*----------------------BLOG------------------------------*/
+.blog { background-image: url(../images/blog1.jpg);
+    background-repeat: no-repeat;
+border-bottom-width: 0px;
+padding-bottom: 30px;
+background-size: cover;
+height: 300px;
+
+}
+
+.na{padding-top: 50px; font-size: 40px; font-family: Arial, Helvetica, sans-serif;text-align: center;     margin-bottom: 0rem;}
+.ka{justify-content: center;}
+/*----------------------section-3------------------------------*/
+.pr{ border:solid 1px #dbd8d8; background: #edf6ff; border-radius: 10px;}
+.pr img{border-radius: 10px;}
+
+
+
+/*----------------------about------------------------------*/
+.about{position: relative;}
+.youtu{position: absolute; top: 35%; left: 45%;}
+.youtu i{color:#fff;  font-size: 70px; }
+.youtu :hover{color: #ff0000;}
+.about-img{border: solid 1px; color: #000000; border-radius: 10px; }
+/*-----------------------------------------------------------------*/
+.pu{ padding: 10px; background: #eee; border-radius: 10px; }
+.pu:hover{border: solid 1px; color: #ec1010;}
+.pa{background: #f4f4f4;     border-radius: 10px;}
+.pa:hover{background: #fff;}
+.ra{background: #e2d8d8; padding: 5px; margin-top: 5px; border-radius: 10px;}
+.ra i:hover{color:#133cc2;}
+
+/*----------------------login------------------------------*/
+.ll-form{background:  #fff9f9; margin: auto;  padding-top: 30px ; margin-top: 20px; padding-bottom: 50px;
+border: solid 1px; border-color: #b8b3b3; border-radius: 5px;}
+
+.form-control{width: 80%; padding-left: 10px; margin: auto;}
+.form-control:focus {border-color:#777575; box-shadow: none;}
+.form-control:hover{}
+.form-label{padding-left: 50px; margin-bottom: 0px;}
+.form-text{padding-left: 50px;}
+.checkbox{margin-left:  50px;}
+.form-check-label{padding-left: 5px;}
+.form-btn{text-align: center; background-color: #d61919; padding: 10px 90px; border-radius: 10px;}
+.form-btn:hover{color:#fff; background: #000;}
+
+/*--------------------------Contact---------------------------------------*/
+
+.Contact-input input{width: 90%; margin-top: 15px; padding: 10px; justify-content: center; background: #eee;border: none; border: solid 1px; border-color: #bc9b88; border-radius: 5px; margin-left: 5px;}
+.Contact-input input:focus{ background-color: #fff;}
+.Contact-input textarea{width: 90%; margin-top: 15px; padding: 10px; justify-content: center; background: #eee;border: none; border: solid 1px; border-color: #bc9b88; border-radius: 5px; margin-left: 5px; margin-bottom: 15px;}
+.Contact-input textarea:focus{ background-color: #fff;}
+.Contact-a{padding: 10px 25px; background: red; border-radius: 27px;
+    font-size: 20px; margin-left: 20px; margin-bottom: 10px;}
+.Contact-a:hover{color: #fff;}
+.Contact-bg{background: #fff;}
+/*-----------------------------------------------------------------*/
+@media(max-width:1024px){
+    .form-label{padding-left: 40px; margin-bottom: 0px;}
+.form-text{padding-left: 40px; font-size: 10px;}
+.checkbox{margin-left:  40px;}
+}
+
+@media(max-width:768px){
+    h3{font-size: 18px;}
+    h5{font-size: 15px;}
+    p{font-weight: 400; font-family: Arial, Helvetica, sans-serif; color: #3f3737;}
+
+    .yas{margin-bottom: 20px;}
+    .as{display: none;}
+    .navbar-nav{text-align: center;}
+    .map{height: 250px;}
+    .navbar-brand  img{width: 40%;}
+    
+.navbar-toggler-icon{width: 1em; height: 1em;}
+.dropdown-menu{text-align: center;}
+.su{position: absolute; top: 30%; left: 40%;}
+.form-label{padding-left: 30px; margin-bottom: 0px;}
+.form-text{padding-left: 30px; font-size: 10px;}
+.checkbox{margin-left:  30px;}
+
+}
+@media(max-width:425px){
+    .owl-cal{font-size: 15px;}
+    .bg{padding-bottom: 0px;} 
+    .navbar-brand  img{width: 35%;}
+    .map{height: 180px;}
+    
+    .icon{width: 35px; height: 35px; background-color: #fdf6f8; border-radius: 50%;}
+    .icon i{color: #f01111; font-size: 15px; display: flex;  justify-content: center; padding-top: 10px;}
+        
+
+
+.pt-5{padding-top: 0px!important;}
+.blog{height: 140px;}
+.na{padding-top: 5px; font-size: 25px;}
+.form-label{padding-left: 40px; margin-bottom: 0px;}
+.form-text{padding-left: 40px; font-size: 10px;}
+.checkbox{margin-left:  35px;}
+
+
+
+}
+
+@media(max-width:320px){
+    .form-label{padding-left: 33px; margin-bottom: 0px;}
+.form-text{padding-left: 33px; font-size: 10px;}
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
